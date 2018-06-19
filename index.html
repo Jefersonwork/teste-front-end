@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>conectus</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <script src="js/script.js"></script>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--Home-->
+            <nav class="navbar navbar-expand-md navbar-light sticky-top">
+                <div class="container-fluid" id="navEfect">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo-conectus-nav.png">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#info">Destaques</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#func">Funcionalidades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#baixar">Baixar o App</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="slides" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/fundo-home.png">
+                        <div class="carousel-caption">
+                            <h3>LOREM IPSUM DOLOR SIT</h3>
+                            <button type="button" class="btn btn-primary btn-lg">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!--Sobre-->
+            <div class="container-fluid padding" id="sobre">
+                <div class="row padding">
+                    <div class="col-lg-6 col-sm-6">
+                        <h3>SOBRE A CONECTUS</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt <strong>ut labore</strong> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Duis aute irure dolor in reprehenderit <strong>in reprehenderit in voluptate</strong> velit esse clillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <img src="img/iphone.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        
+        <!--Infos-->
+            <div class="container-fluid padding" id="info">
+                <div class="row padding">
+                    <div class="col-lg-6 col-sm-6">
+                        <img src="img/PhoneSlider.png" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <h3 class="slideT">LOREM 1</h3>
+                        <p class="slideP">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim veniam, quis<br> nostrud exercitation ultamco laboris nisi<br> ut aliquib ex es commodo consequat.</p>
+                        <label><strong>0</strong><strong id="contador">1</strong></label><strong>/04</strong>
+                        <br>
+                        <div class="row">
+                            <div class="left">
+                                <span id="arrowLeft" class="fa fa-angle-left"></span>
+                            </div>
+                            <div class="right">
+                                <span id="arrowRight" class="fa fa-angle-right"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--Serviços-->
+            <div class="jumbotron" id="func">
+                <h3>AS FUNCIONALIDADES</h3>
+                <div class="container-fluid padding">
+                    <div class="row text-center" id="servicos">
+                        <div class="col-sm-6 col-md-3 servico">
+                            <div class="card">
+                                <img class="img" src="img/servico-1.png">
+                                <h4 class="card-title">lorem</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 servico">
+                            <div class="card">
+                                <p>Lorem ipsum dolor sit amet. Consectetur adiposicing elit.</p>
+                                <a href="#" class="btn btn-secondary">Lorem ipsum</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 servico">
+                            <div class="card">
+                                <img class="img" src="img/servico-3.png">
+                                <h4 class="card-title">lorem</h4>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 servico">
+                            <div class="card">
+                                <img class="img" src="img/servico-4.png">
+                                <h4 class="card-title">lorem</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!--Contato-->
+            <div class="container-fluid padding" id="baixar">
+                <div class="row padding">
+                    <div class="col-lg-6" id="contato">
+                        <div class="text-center logo-down">
+                            <img src="img/logo-conectus.png" class="img-fluid">
+                        </div>
+                        <button type="button" class="btn btn-outline-light btn-lg" id="aplle">
+                            <span class="fab fa-apple"></span>
+                            Download the app
+                        </button>
+                        <button type="button" class="btn btn-outline-light btn-lg" id="play">
+                            <span class="fa fa-play"></span>
+                            Download the app
+                        </button>
+                    </div>
+                    <div class="col-lg-6" id="">
+                        <div id="form-contato">
+                            <h3>QUER FALAR COM A GENTE?</h3>
+                            <form name="form" id="form" action="contato.php" method="POST">
+                                <div class="campo">
+                                    <input type="text" class="form-control" name="fNome" id="imputName3" placeholder="Nome">
+                                </div>
+                                <div class="campo">
+                                    <input type="email" class="form-control" name="fEmail" id="inputEmail3" placeholder="Email">
+                                </div>
+                                <div class="campo">
+                                    <input type="number" class="form-control" name="fTelefone" id="inputPhone3" placeholder="Telefone">
+                                </div>
+                                <div class="campo">
+                                    <textarea class="form-control" name="fMensagem" id="textarea3" placeholder="Mensagem" rows="6"></textarea>
+                                </div>
+                                <div class="button">
+                                    <input type="submit" name="submit" class="btn btn-primary" value="Enviar">
+                                </div>
+                            </form>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+
+        <!--Footer-->
+            <footer>
+                <div class="container-fluid padding">
+                    <div class="row padding">
+                        <div class="col-sm-6">
+                            <div id="social">
+                                <div>
+                                    <h4>CONECTUS NAS REDES</h4>
+                                </div>
+                                <div class=" social padding">
+                                    <a href="#" class="media-social facebook">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="media-social twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="media-social instagram">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#" class="media-social youtube">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                    <a href="#" class="media-social whatsapp">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </a>
+                                    <a href="#" class="media-social skype">
+                                        <i class="fab fa-skype"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div id="endereco">
+                                <p>rua nossa sernhora de copacabana.
+                                <br> 1356 - sala 2 - copacabana
+                                <br> rio de janeiro</p>
+                                <p>olar@conectus.com . +55 21 99999-9922</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div id="logo-branca">
+                <img src="img/conectus-branco.png">
+            </div>
+        <!--Bg-->
+        
+    </body>
+</html>

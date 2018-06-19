@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:500');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    color: #666666;
+    opacity: .9;
+}
+
+.navbar {
+    padding: .8rem;
+    position: fixed;
+    width: 100%;
+}
+.navbar2{
+    background-color: #fff;
+}
+nav .collapse {
+    margin-right: 2rem;
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+.carousel-caption h3 {
+    font-size: 300%;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    color: #333333;
+}
+
+.btn-primary {
+    background-color: #48D1CC;
+    border: 1px solid #48D1CC;
+    font-size: 18px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.btn-primary:hover {
+    background-color: #20B2AA;
+    border: 1px solid #20B2AA;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+#sobre img{
+    margin-top: 8rem;
+}
+#sobre h3 {
+    margin: 11rem 0 2rem 5rem;
+    font-weight: bold;
+    color: #48D1CC;
+}
+#sobre p {
+    text-align: justify;
+    margin: 0 5rem 2rem 5rem;
+}
+
+#info img {
+    position: absolute;
+    margin: 100px 0 0 5rem;
+    z-index: -1;
+}
+#info h3 {
+    margin: 16rem 0 3rem 2rem;
+    font-weight: bold;
+    color: #48D1CC;
+}
+#info p {
+    margin: 0 0 3rem 2rem;
+}
+#info label {
+    margin-left: 2rem;
+}
+
+.row {
+    margin-left: .1rem;
+}
+
+#arrowLeft {
+    margin-left: 2rem;
+}
+#arrowRight {
+    margin-left: 1rem;
+}
+#arrowLeft, #arrowRight {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#arrowLeft:hover, #arrowRight:hover {
+    color: #888888;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #48D1CC;
+    color: #fff;
+}
+.jumbotron h3 {
+    font-weight: bold;
+    margin: 7rem 0 9rem 0;
+}
+#servicos {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+}
+.card p {
+    width: 100%;
+    font-size: 100%;
+    margin-top: 2rem;
+}
+.card img {
+    width: 50%;
+    margin: 2rem auto 1rem auto;
+}
+.card a {
+    background-color: #48D1CC;
+    border: 1px solid #48D1CC;
+}
+.card a:hover {
+    background-color: #20B2AA;
+    border: 1px solid #20B2AA;
+}
+
+#contato {
+    text-align: center;
+    margin-top: 10rem;
+}
+#contato img {
+    width: 40%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#aplle {
+    background-color: #48D1CC;
+    border: 2px solid #48D1CC;
+    color: #fff;
+}
+#aplle:hover {
+    background-color: #20B2AA;
+    border: 2px solid #20B2AA;
+}
+#play {
+    color: #48D1CC;
+    border: 2px solid #48D1CC;
+}
+#play:hover {
+    border: 2px solid #20B2AA;
+    color: #20B2AA;
+}
+
+#form-contato {
+    text-align: right;
+    margin-top: 10rem;
+    margin-right: 5rem;
+}
+#form-contato h3 {
+    color: #48D1CC;
+    margin-bottom: 3rem;
+}
+#form-contato .campo {
+    margin-bottom: 2rem;
+}
+.error {
+    color: #ff0000;
+}
+
+footer {
+    background-color: #CCCCCC ;
+}
+footer #social {
+    text-align: center;
+    margin-top: 5rem;
+}
+footer .media-social {
+    font-size: 2rem;
+    margin: .5rem;
+    text-decoration: none;
+    background-color: #333333 ;
+    color: #fff;
+    border-radius: 50%;
+}
+footer .media-social:hover {
+    background-color: #888888;
+}
+.facebook {
+    padding: 0 .5rem 0 .8rem;
+}
+.twitter {
+    padding: 0 .1rem 0 .4rem;
+}
+.instagram {
+    padding: 0 .2rem 0 .5rem;
+}
+.youtube {
+    padding: 0 .1rem 0 .4rem;
+}
+.whatsapp {
+    padding: 0 .2rem 0 .5rem;
+}
+.skype {
+    padding: 0 .5rem 0 .5rem;
+}
+#endereco {
+    text-align: right;
+    margin: 6rem 5rem 0 0;
+}
+
+
+#logo-branca {
+    background-color: #009999 ;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15rem;
+}
+#logo-branca img {
+    width: 8%;
+    margin: .6rem .1rem 0 0;
+}
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .card p {
+        width: 95%;
+        font-size: 80%;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .carousel-caption {
+        top: 55%;
+      }
+      .carousel-caption h1 {
+        font-size: 350%;
+      }
+      .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+      }
+      .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+      }
+
+    #sobre img{
+        margin-top: 12rem;
+    }
+    #sobre h3 {
+        margin: 11rem 0 2rem 2rem;
+    }
+    #sobre p {
+        margin: 0 2rem 2rem 2rem;
+    }
+    
+    #info img {
+        position: static;
+        margin: 3rem 0 0 2rem;
+        z-index: -1;
+    }
+    #info h3 {
+        margin: 16rem 0 3rem 2rem;
+    }
+    #info p {
+        margin: 0 0 3rem 2rem;
+    }
+    
+    
+    .jumbotron h3 {
+        font-weight: bold;
+        margin: 7rem 0 9rem 0;
+    }
+
+    .jumbotron h3 {
+        font-weight: bold;
+        margin: 3rem 0 5rem 0;
+    }
+    #servicos {
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    .card p {
+        width: 90%;
+        font-size: 75%;
+        margin-top: .5rem;
+    }
+
+    #contato {
+        margin-top: 2rem;
+    }
+    
+    #form-contato {
+        text-align: center;
+        width: 70%;
+        margin-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #form-contato h3 {
+        color: #48D1CC;
+        margin-bottom: 3rem;
+    }
+    #form-contato .campo {
+        margin-bottom: 2rem;
+    }
+
+    footer #social {
+        text-align: left;
+        margin-top: 3rem;
+    }
+    #social h4 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    footer .media-social {
+        font-size: 1rem;
+        margin: .2rem;
+    }
+    .facebook {
+        padding: 0 .3rem 0 .5rem;
+    }
+    .twitter {
+        padding: 0 .1rem 0 .3rem;
+    }
+    .instagram {
+        padding: 0 .2rem 0 .4rem;
+    }
+    .youtube {
+        padding: 0 .1rem 0 .3rem;
+    }
+    .whatsapp {
+        padding: 0 .2rem 0 .4rem;
+    }
+    .skype {
+        padding: 0 .4rem 0 .4rem;
+    }
+    #endereco {
+        text-align: right;
+        margin: 3rem 1rem 0 0;
+    }
+    
+}
+
+@media (max-width: 576px) {
+
+    .carousel-caption {
+        top: 50%;
+      }
+      .carousel-caption h1 {
+        font-size: 250%;
+      }
+      .carousel-caption h3 {
+        font-size: 110%;
+      }
+      .carousel-caption .btn {
+        font-size: 90%;
+        padding: 4px 8px;
+      }
+      .carousel-indicators {
+        display: none;
+      }
+
+    #sobre img{
+        margin-top: 6rem;
+    }
+    #sobre h3 {
+        margin: 3rem 0 2rem 1rem;
+    }
+    #sobre p {
+        margin: 0 2rem 2rem 1rem;
+    }
+    
+    #info img {
+        margin: 3rem 0 0 1rem;
+        z-index: -1;
+    }
+    #info h3 {
+        margin: 6rem 0 3rem 2rem;
+    }
+    #info p {
+        margin: 0 0 3rem 2rem;
+    }
+
+    #endereco {
+        font-size: 10pt;
+    }
+
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  /*--- Fixed Background Image --*/
+  figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+  }
+  
+  /*--- Bootstrap Padding Fix --*/
+  [class*="col-"] {
+      padding: 1rem;
+  }
